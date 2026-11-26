@@ -1,0 +1,36 @@
+/* VAYORA design tokens.
+   Change --accent (and its two derived shades) to swap the burgundy everywhere.            */
+:root {
+  --sage: #A5A79B;
+  --sage-deep: #7E8174;
+  --sage-mist: #D3D4CC;
+  --cream: #E8D2B5;
+  --cream-soft: #F2E6D5;
+  --paper: #F7F1E8;
+  --accent: #650907;            /* Deep burgundy (provisional, change here only) */
+  --accent-hover: #7E1411;
+  --accent-ink: #F6E9D8;        /* text on accent */
+  --ink: #2A2722;               /* warm graphite for body text */
+  --ink-soft: #5C584F;
+  --line: rgba(42, 39, 34, 0.14);
+  --good: #3F6B4A;
+  --warn: #9A6A12;
+  --bad: #9E2A22;
+
+  --glass: rgba(247, 241, 232, 0.62);
+  --glass-border: rgba(255, 255, 255, 0.55);
+  --shadow-1: 0 1px 2px rgba(54, 40, 24, .08), 0 6px 18px -8px rgba(54, 40, 24, .18);
+  --shadow-2: 0 2px 6px rgba(54, 40, 24, .08), 0 24px 48px -20px rgba(54, 40, 24, .35);
+  --shadow-accent: 0 14px 30px -14px rgba(101, 9, 7, .65);
+
+  --font-display: "Bricolage Grotesque", "Avenir Next Condensed", "Arial Narrow", system-ui, sans-serif;
+  --font-body: "Instrument Sans", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+
+  /* modular scale 1.25 */
+  --t-xs: .75rem; --t-sm: .875rem; --t-md: 1rem; --t-lg: 1.25rem; --t-xl: 1.563rem;
+  --t-2xl: 1.953rem; --t-3xl: 2.441rem; --t-4xl: 3.815rem; --t-5xl: clamp(3rem, 7.4vw, 6.2rem);
+
+  --r-sm: 10px; --r-md: 16px; --r-lg: 26px; --r-pill: 999px;
+  --ease-out: cubic-bezier(.2, .8, .2, 1);
+  --ease-drive: cubic-bezier(.65, .02, .25, 1);
+}

@@ -1,0 +1,42 @@
+﻿# Environment secrets
+.env*
+!.env.example
+!**/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Uploads and user data
+uploads/
+*.dump
+*.backup
+
+# Local databases
+*.sqlite
+*.sqlite3
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Celery runtime files
+celerybeat-schedule*
+
+# Local project inventory
+project-structure.txt
